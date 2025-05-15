@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+@import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+
+/* Font Classes */
+.amiri { font-family: 'Amiri', serif; }
+.droid-arabic-kufi { font-family: 'Droid Arabic Kufi', serif; }
+.droid-arabic-naskh { font-family: 'Droid Arabic Naskh', serif; }
+.lateef { font-family: 'Lateef', serif; }
+.scheherazade { font-family: 'Scheherazade', serif; }
+.thabit { font-family: 'Thabit', serif; }
+.IBMPlex { font-family: 'IBMPlex', serif; }
+.harir { font-family: 'harir', serif; }
+
+/* Base Styles */
+body {
+    font-family: 'DroidKufi-Regular' !important;
+    padding-top: 0px !important;
+}
+
+/* Container Styles */
+.con {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #686868;
+    margin-top: 20px;
+    min-height: 700px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding-bottom: 20px;
+}
+
+.con hr {
+    border-top: 1px solid #636363;
+}
+
+/* Logo Styles */
+.logo {
+    width: 50%;
+    margin: auto;
+}
+
+/* Title Section Styles */
+.title_sec {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.title_sec h1 {
+    margin-right: 20px;
+    float: right;
+    margin-top: 0px;
+}
+
+/* Circle Card Styles */
+.circle_card {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    float: right;
+}
+
+.circle_card_one_color { background-color: #1c2e61; }
+.circle_card_tow_color { background-color: #be996a; }
+.circle_card_three_color { background-color: #008f2c; }
+
+/* Button Styles */
+.b-t {
+    border: 3px solid #bfd5c5;
+    border-radius: 9px;
+    text-align: center;
+    background-color: #e3ebe5;
+    color: #686868;
+}
+
+.b-t:hover {
+    border: 3px solid #008f2c;
+    color: #008f2c;
+}
+
+/* Card Image Styles */
+.card-one img {
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 1;
+    filter: none;
+    transition: none;
+}
+
+.card-one img:hover {
+    opacity: 1;
+    filter: none;
+    transform: none;
+}
+
+.card-tow img {
+    margin-bottom: 15px;
+    opacity: 1;
+    filter: none;
+    transition: none;
+}
+
+.card-tow img:hover {
+    opacity: 1;
+    filter: none;
+}
+
+/* Radio Button Styles */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio] + img {
+    cursor: pointer;
+}
+
+[type=radio]:checked + img {
+    outline: 2px solid #008f2c;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 1px solid #636363;
+}
+
+@font-face {
+  font-family: 'DroidArabicKufiCustom';
+  src: url('/fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, * {
+  font-family: 'DroidArabicKufiCustom', sans-serif !important;
+}
+
+.selected-design-border {
+  border: 3px solid #5ED481;
+  border-radius: 10px;
+} 
